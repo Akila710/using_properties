@@ -22,8 +22,6 @@
 		   <applicationName>${project.groupId}</applicationName>
 		   <environment>Sandbox</environment>
 		   <target>Cloudhub-US-East-2</target>
-		   <workers>1</workers>
-		   <workerType>Micro</workerType>
 		   <anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
 	</properties>
 
@@ -48,8 +46,6 @@
 					      <applicationName>${applicationName}</applicationName>
 					      <environment>${environment}</environment>
 					      <target>${target}</target>
-					      <workers>${workers}</workers>
-					      <workerType>${workerType}</workerType>
 					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
